@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="138971" started-at="2020-08-24T19:18:08Z" finished-at="2020-08-24T19:20:27Z">
+    <groups>
+    </groups>
+    <test name="Validate Title in the Page" duration-ms="111667" started-at="2020-08-24T19:18:08Z" finished-at="2020-08-24T19:20:00Z">
+      <class name="Academy.ValidationTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidationTitle@73eb439a]" name="initialize" is-config="true" duration-ms="97902" started-at="2020-08-25T00:48:08Z" finished-at="2020-08-25T00:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="validateAppTitle()[pri:0, instance:Academy.ValidationTitle@73eb439a]" name="validateAppTitle" duration-ms="2177" started-at="2020-08-25T00:49:46Z" finished-at="2020-08-25T00:49:48Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSES123] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSES123] but found [FEATURED COURSES]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at Academy.ValidationTitle.validateAppTitle(ValidationTitle.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:38)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:391)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.ValidationTitle@73eb439a]" name="teardown" is-config="true" duration-ms="7533" started-at="2020-08-25T00:49:52Z" finished-at="2020-08-25T00:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidationTitle -->
+    </test> <!-- Validate Title in the Page -->
+    <test name="Validation Navigation Bar" duration-ms="113026" started-at="2020-08-24T19:18:08Z" finished-at="2020-08-24T19:20:01Z">
+      <class name="Academy.ValidationNavBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.ValidationNavBar@14028087]" name="initialize" is-config="true" duration-ms="98640" started-at="2020-08-25T00:48:08Z" finished-at="2020-08-25T00:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="TestNavigationBar()[pri:0, instance:Academy.ValidationNavBar@14028087]" name="TestNavigationBar" duration-ms="3624" started-at="2020-08-25T00:49:47Z" finished-at="2020-08-25T00:49:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNavigationBar -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.ValidationNavBar@14028087]" name="teardown" is-config="true" duration-ms="10754" started-at="2020-08-25T00:49:50Z" finished-at="2020-08-25T00:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidationNavBar -->
+    </test> <!-- Validation Navigation Bar -->
+    <test name="Validation User Page" duration-ms="138966" started-at="2020-08-24T19:18:08Z" finished-at="2020-08-24T19:20:27Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.HomePage@1040be71]" name="initialize" is-config="true" duration-ms="34810" started-at="2020-08-25T00:48:08Z" finished-at="2020-08-25T00:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="TestHomePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@1040be71]" name="TestHomePage" duration-ms="93165" started-at="2020-08-25T00:48:43Z" data-provider="getData" finished-at="2020-08-25T00:50:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sunny.sinha@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Destiny]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1st User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHomePage -->
+        <test-method status="PASS" signature="TestHomePage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@1040be71]" name="TestHomePage" duration-ms="9145" started-at="2020-08-25T00:50:16Z" data-provider="getData" finished-at="2020-08-25T00:50:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sinha.sunny@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kismat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2nd User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHomePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePage@1040be71]" name="teardown" is-config="true" duration-ms="1757" started-at="2020-08-25T00:50:25Z" finished-at="2020-08-25T00:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Validation User Page -->
+  </suite> <!-- Suite -->
+</testng-results>
